@@ -9,7 +9,7 @@ export default function TodoList(props) {
         name={props.todo.isChecked ? "check-circle" : "radio-button-unchecked"}
         style={styles.leading}
         size={20}
-        color="#666666"
+        color="#20B2AA"
         onPress={() => props.checkTodo(props.todo.key)}
       />
       <Text style={styles.title}>{props.todo.name}</Text>
@@ -17,7 +17,7 @@ export default function TodoList(props) {
         name="delete"
         style={styles.trailing}
         size={20}
-        color="#666666"
+        color="#20B2AA"
         onPress={() => props.deleteTodo(props.todo.key)}
       />
     </View>
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
     padding: 10,
     borderBottomWidth: 0.5,
-    borderBottomColor: "#666666"
+    borderBottomColor: "#20B2AA"
   },
   leading: {
     width: "20%"

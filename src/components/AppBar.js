@@ -11,7 +11,7 @@ export default function AppBar(){
 
 const styles = StyleSheet.create({
   appBar: {
-    backgroundColor: "#7F39FB",
+    backgroundColor: "#20B2AA",
     color: "white",
     width: "100%",
     height: 50,

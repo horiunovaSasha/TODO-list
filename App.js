@@ -53,7 +53,7 @@ export default function App() {
           onChangeText={value => setTitle(value)}
           style={styles.textbox}
         />
-        <Button title="Add" color="#7F39FB" onPress={() => addTodo()} />
+        <Button title="Add" color="#20B2AA" onPress={() => addTodo()} />
       </View>
      
       <View>
