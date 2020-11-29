@@ -76,7 +76,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   statusBar: {
-    backgroundColor: "#7F39FB",
+    backgroundColor: "#20B2AA",
     color: "#fff",
     width: "100%",
     height: 30
@@ -95,7 +95,7 @@ const styles = StyleSheet.create({
   },
   textbox: {
     borderWidth: 1,
-    borderColor: "#7F39FB",
+    borderColor: "#20B2AA",
     borderRadius: 8,
     padding: 10,
     margin: 10,
